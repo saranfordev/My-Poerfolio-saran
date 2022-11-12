@@ -51,6 +51,14 @@ header {
     overflow: hidden;
     padding: 5rem 1.5rem 1.5rem 1.5rem;
 }
+
+.me img {
+    width: 47.5rem;
+    position: absolute;
+    left: -11.5rem;
+    top: 1.4rem;
+    /* right: auto; */
+}
 /*=========== SCROLL DOWN ==============*/
 .scroll__down {
     position: absolute;
