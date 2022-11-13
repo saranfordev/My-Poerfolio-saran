@@ -2,17 +2,12 @@
     display: grid;
     grid-template-columns: 35% 50%;
     gap: 15%;
+    column-gap: 15%;
 }
+
 .about__me {
-    width: 100%;
-    aspect-ratio: 1/1;
-    border-radius: 2rem;
-    background: linear-gradient(
-        45deg, transparent, 
-        var(--color-primary), 
-        transparent);
-    display: grid;
-    place-items: center;
+    display: flex;
+    justify-content: center;
 }
 
 .about__me-image {
@@ -20,12 +15,11 @@
     overflow: hidden;
     transform: rotate(10deg);
     transition: var(--transition);
+    /* border: 3px solid #fff; */
+    width: 75%;
 }
 
-.about__me-image img {
-    width: 21.5rem;
-    height: 22rem;
-}
+
 
 .about__me-image:hover {
     transform: rotate(0deg);
@@ -89,8 +83,10 @@
 /* ================ MEDIA QUERIES (SAMLL DEVICES) =================*/
 @media screen and (max-width: 600px) {
     .about__me {
-        width: 65%;
+        width: 21.5rem;
         margin: 0 auto 3rem;
+        margin-bottom: 5rem;
+        margin-top: 2rem;
     }
 
     .about__cards {

@@ -29,21 +29,19 @@ const About = () => {
             <article className="about__card">
               <HiOutlineUsers className='about__icon'/>
               <h5>Clients</h5>
-              <small>200+ Worldwide</small>
+              <small>0+ Worldwide</small>
             </article>
           
             <article className="about__card">
               <AiFillFolderOpen className='about__icon'/>
               <h5>Projects</h5>
-              <small>80+ Completed</small>
+              <small>1+ Completed</small>
             </article>
           </div>
 
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-            Rem voluptatibus numquam earum, placeat iure magnam perspiciatis ex incidunt voluptates alias. 
-            Iste deleniti distinctio nostrum perferendis laborum necessitatibus? Tenetur, 
-            adipisci perferendis?
+            Hi, I'm Ken and I'd like to challenge my skill and looking for an opportunity
+            to work with a strong and reliable company. I'm a hard worker, ready to try new things.
           </p>
 
           <a href="#contact" className='btn btn-primary'>Let's Talk</a>

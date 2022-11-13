@@ -66,7 +66,7 @@ const Experience = () => {
         {/* END OF FRONTEND */}
 
         <div className="experience__backend">
-          <h3>Backend Development</h3>
+          <h3>Graphic Design</h3>
           <div className="experience__content">
             <article className='experience__details'>
               <BsCheckCircleFill className='experience__details-icon'/>
