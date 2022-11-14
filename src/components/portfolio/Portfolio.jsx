@@ -1,7 +1,7 @@
 import React from 'react'
 import './portfolio.css'
-import IMG1 from '../../assets/Resume.jpg'
-import Resume from '../../assets/MyResume.pdf'
+import IMG1 from '../../assets/MyPort.png'
+import Resume from '../../assets/MyPort.pdf'
 
 const Portfolio = () => {
   return (
